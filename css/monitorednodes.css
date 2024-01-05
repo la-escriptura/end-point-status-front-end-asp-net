@@ -1,0 +1,136 @@
+﻿#container {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 8pt;
+}
+
+#lbl {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: xx-large;
+}
+
+.command {
+    width: 60px;
+}
+
+#navigate {
+    width: 100%;
+}
+
+#colBtnFrst {
+    width: 25px;
+}
+
+#colBtnPrev {
+    width: 25px;
+}
+
+#colTxtPageNo {
+    width: 70px;
+    text-align: right;
+}
+
+#colLblTotalPages {
+    width: 70px;
+}
+
+#colBtnNext {
+    width: 25px;
+}
+
+#colBtnLast {
+    width: 25px;
+}
+
+#colBtnRefresh {
+    width: 70px;
+}
+
+#colLblRowCountPerPage {
+    width: 180px;
+}
+
+#colTxtRowCountPerPage {
+    width: 50px;
+}
+
+#colLblDisplay {
+    text-align: right;
+}
+
+#colLblTotalRowCount {
+    width: 50px;
+}
+
+
+
+
+.controls {
+    width: 100%;
+}
+
+#txtPage {
+    width: 50px;
+    text-align: right;
+}
+
+#txtRowCountPerPage {
+    text-align: right;
+}
+
+
+
+.overlay {
+    position: fixed;
+    display: none;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+}
+
+.inputs {
+    position: absolute;
+    padding: 100px;
+    top: 50%;
+    left: 50%;
+    background-color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+}
+
+.overlayTitle {
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+#lblTitleInput, #lblTitleSort {
+    font: normal xx-large arial;
+}
+
+.inputLabel {
+    text-align: right;
+    white-space: nowrap;
+}
+
+.inputTextBox {
+    width: 500px;
+}
+
+.inputDropDownList {
+    width: 507px;
+}
+
+.sortListBox {
+    width: 200px;
+}
+
+.overlayControls {
+    padding-top: 20px;
+    margin-right: 0px;
+    margin-left: auto;
+}

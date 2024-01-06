@@ -73,11 +73,11 @@ Public Class modMain
 
     Public Shared Function Decrypt(ByVal cipherText As String) As String
         Try
-            Dim passPhrase As String = "OwhB5Hx@Xhk*m=0G"
-            Dim saltValue As String = "qi6,PcsYP$k,RVu'"
+            Dim passPhrase As String = ""
+            Dim saltValue As String = ""
             Dim hashAlgorithm As String = "SHA1"
             Dim passwordIterations As Integer = 2
-            Dim initVector As String = "7r7n|HPT=fWw'W8K"
+            Dim initVector As String = ""
             Dim keySize As Integer = 256
             ' Convert strings defining encryption key characteristics into byte
             ' arrays. Let us assume that strings only contain ASCII codes.
